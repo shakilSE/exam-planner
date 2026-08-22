@@ -10,7 +10,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $conn->query("INSERT INTO batches (name, department) VALUES ('$name', '$dept')");
         $_SESSION['success'] = "Batch added successfully!";
         header("Location: index.php"); exit();
-    } else { $error = "Please fill all fields."; }
+    } else { $error = "Please fill all fields.";
+     }
 }
 include '../../includes/header.php';
 ?>

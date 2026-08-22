@@ -175,7 +175,7 @@ include 'includes/header.php';
                         <span class="badge badge-warning">Generated</span>
                     <?php else: ?>
                         <span class="badge badge-gray">Pending</span>
-                    <?php endif; ?>
+                <?php endif; ?>
                 </td>
                 <td>
                     <a href="<?= BASE_URL ?>modules/seat_plan/view.php?exam_id=<?= $e['id'] ?>" class="btn btn-primary btn-sm">

@@ -40,7 +40,6 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             margin: 0;
             padding: 0;
             font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            /* আপনার আইডিয়া অনুযায়ী মেইন ফোল্ডারের লোকাল ছবি nub-campus.png এখানে ১০০% নিখুঁতভাবে কানেক্ট করা হয়েছে */
             background: linear-gradient(rgba(15, 23, 42, 0.55), rgba(15, 23, 42, 0.65)), 
                         url('nub-campus.png') no-repeat center center fixed;
             background-size: cover;

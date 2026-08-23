@@ -17,6 +17,7 @@ setTimeout(() => {
     });
 }, 4000);
 
+
 // Confirm delete
 function confirmDelete(url, name) {
     if (confirm('Are you sure you want to delete "' + name + '"?')) {

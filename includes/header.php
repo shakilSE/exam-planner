@@ -14,6 +14,7 @@ $current_page = basename($_SERVER['PHP_SELF'], '.php');
 <body>
 <div class="app-wrapper">
 
+
 <!-- Sidebar -->
 <aside class="sidebar" id="sidebar">
     <div class="sidebar-brand">

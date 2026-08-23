@@ -5,6 +5,7 @@ CREATE DATABASE IF NOT EXISTS exam_planner CHARACTER SET utf8 COLLATE utf8_gener
 USE exam_planner;
 
 -- Admin users
+
 CREATE TABLE IF NOT EXISTS users (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(100) NOT NULL,
